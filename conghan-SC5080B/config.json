@@ -1,0 +1,43 @@
+{
+  "name": {
+    "zh-cn": "SC5080B语音",
+    "en": "SC5080B voice"
+  },
+  "description": {
+    "zh-cn": "SC5080B语音模块，预置语音",
+    "en": "SC5080B voice module with preset chinese words"
+  },
+  "author": "conghan",
+  "email": "conghan1994@126.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "SC5080B",
+  "platform": [
+    "win",
+    "mac",
+    "web"
+  ],
+  "version": "0.0.1",
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "0.0.2",
+      "board": [
+        "arduino"
+      ],
+      "main": "main.ts",
+      "files": [
+        "_images/icon.svg",
+        "_locales/zh-cn.json",
+        "_menus/arduino.json",
+        "_menus/arduinonano.json",
+        "_menus/esp32.json",
+        "_menus/leonardo.json",
+        "_menus/mega2560.json",
+        "_menus/microbit.json",
+        "main.ts",
+        "libraries/libraries.zip"
+      ]
+    }
+  }
+}
